@@ -1,0 +1,4 @@
+﻿  10.cpp
+C:\Users\ЮЛЯ ))\source\repos\Programming\Practice\10\C++\10\10\10.cpp(7,50): warning C4101: b2: неиспользованная локальная переменная
+C:\Users\ЮЛЯ ))\source\repos\Programming\Practice\10\C++\10\10\10.cpp(7,46): warning C4101: b1: неиспользованная локальная переменная
+C:\Users\ЮЛЯ ))\source\repos\Programming\Practice\10\C++\10\10\10.cpp(16): error C4700: использована неинициализированная локальная переменная "x1"
