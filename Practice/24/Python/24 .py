@@ -17,3 +17,6 @@ for record in inData:
 
 with open( "out.json", "w" ) as outFile:
     json.dump( outData, outFile )
+
+
+    
