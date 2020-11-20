@@ -1,2 +1,3 @@
 ﻿  24.cpp
-C:\Users\ЮЛЯ ))\source\repos\Programming\Practice\24\С++\24\24\24.cpp(3,10): fatal error C1083: Не удается открыть файл включение: nlohmann/json.hpp: No such file or directory,
+C:\Users\ЮЛЯ ))\source\repos\24\24\24.cpp(35,23): warning C4018: <: несоответствие типов со знаком и без знака
+  24.vcxproj -> C:\Users\ЮЛЯ ))\source\repos\24\Debug\24.exe
