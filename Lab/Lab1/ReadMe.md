@@ -1,1 +1,1 @@
-![](C:\Users\ЮЛЯ ))\source\repos\Programming\Lab\Lab1\photo)
+![](./image/pic1.jpg)
