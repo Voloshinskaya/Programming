@@ -63,6 +63,7 @@ http://openweathermap.org/. В состав сервиса входит: сер�
 
 <code>
 `
+
 #include <iostream>
 #include <locale>
 #include "cpp_httplib/httplib.h"
@@ -216,8 +217,10 @@ int main() {
 
 Рис.2 Баннер Клиента после получения данных
 
+
 <code>
 `
+
 from tkinter import *
 import requests
 import json
@@ -267,6 +270,7 @@ RefreshData(None)
 RefreshData(None)
 m.bind("<Button-1>", RefreshData)
 mainloop()
+
 
 `
 </code>
