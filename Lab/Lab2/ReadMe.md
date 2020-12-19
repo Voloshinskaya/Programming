@@ -74,6 +74,12 @@
 <p align="center"><img src="image/image2.PNG"></p>
 <p align="center">Рис 2. Редактирование webhook-ов.</p>
 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Далее предоставлен результат.</p>
+
+<p align="center"><img src="image/alice2.PNG"></p>
+<p align="center">Рис 3. Демонстрация работы кода.</p>
+
+
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Далее предоставлен полный текст серверного приложения (с++):</p>
 
 
