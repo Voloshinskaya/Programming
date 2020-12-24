@@ -88,7 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\ЮЛЯ %29%29\source\repos\Programming\Lab\Lab1\ConsoleApplication1\ConsoleApplication1\include;C:\Users\ЮЛЯ ))\source\repos\Programming\Lab\Lab1\ConsoleApplication1\ConsoleApplication1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Programming\Lab\Lab1\С++\ConsoleApplication1\ConsoleApplication1\include;C:\Users\ЮЛЯ %29%29\source\repos\Programming\Lab\Lab1\ConsoleApplication1\ConsoleApplication1\include;C:\Users\ЮЛЯ ))\source\repos\Programming\Lab\Lab1\ConsoleApplication1\ConsoleApplication1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

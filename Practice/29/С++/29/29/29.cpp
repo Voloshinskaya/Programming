@@ -4,7 +4,30 @@
 #include <math.h>
 using namespace std;
 
-auto BozoSort(vector<int>& vec, bool d = true) {
+struct Student {
+	string name = "None";
+	int group = 0;
+	int mathematics; int physics; int history; int programming;
+};
+
+bool operator< (Student& a, Student& b) {
+	return a.name < b.name;
+}
+bool operator> (Student& a, Student& b) {
+	return a.name > b.name;
+}
+
+ostream& operator<< (ostream& out, Student student) {
+	out << "| ";
+	out << student.group << "\t| ";
+	out << student.mathematics << "\t| ";
+	out << student.physics << "\t| ";
+	out << student.history << "\t| ";
+	out << student.programming << "\t| ";
+	return out;
+}
+
+auto BozoSort(vector<Student>& vec, bool d = true) {
 	srand(time(NULL));
 	bool sorted = false;
 	int change1, change2, tmp;
@@ -28,11 +51,7 @@ auto BozoSort(vector<int>& vec, bool d = true) {
 	}
 }
 
-struct Student {
-	string name = "None";
-	int group = 0;
-	int math; int phys; int hist; int prog;
-};
+
 
 
 int main() {
@@ -47,3 +66,4 @@ int main() {
 
 	return 0;
 }
+
