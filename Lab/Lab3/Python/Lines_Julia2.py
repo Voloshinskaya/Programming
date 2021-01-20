@@ -1,4 +1,4 @@
-import random as rnd 
+import random as rnd
 from tkinter import *
 from PIL import Image, ImageTk
 class pf():
@@ -100,7 +100,7 @@ def get_free_cells(): # проверка свободного места на п
 def balls_add(*args, **kargs):
     unselest_ball() # разпомечаем шар, если был какой-то помечен
     if gameend!="":             return      # если "конец игры", то никаких новых шаров пусть жмёт на Новая Игра
-    if len(get_free_cells())<3: end_game()  # ой, место на поле закончилось - игра закончена
+    if len(get_free_cells())<4: end_game()  # ой, место на поле закончилось - игра закончена
     for i in range(3):                      # Выдаём три шара из Помощи
         free=get_free_cells()               # получаем массив свободных мест на поле
         xp,yp=free[rnd.randint(0,len(free)-1)] # выбираем одно случайное свободное место
