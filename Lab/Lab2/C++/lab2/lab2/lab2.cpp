@@ -5,7 +5,6 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
-
 using namespace httplib;
 using namespace std;
 using json = nlohmann::json;
